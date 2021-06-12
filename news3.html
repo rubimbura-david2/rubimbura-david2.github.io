@@ -5,48 +5,46 @@
             CREATION 
         </title>
         <style>
-            *{
-                 margin: 0;
-                 padding:0;
-                 box-sizing:border-box;
-                 }
-             body{
-                 width:100%;
-                 height:100%;
-                 background-color: #000;
-                 display: flex;
-                 justify-content:center;
-                 align-items: center;
-                 transform-style: preserve-3d;
-                 transform: perspective(800px);
+           
+           .how{
+    position: absolute;
+ top: 50%;
+ left: 50%;
+  transform:translate(-50%,-50%);
+}
+.how1{
+    position: absolute;
+ top: 70%;
+ left: 20%;
+  transform:translate(-50%,-50%);
+}
+.how2{
+    position: absolute;
+ top: 70%;
+ left: 80%;
+  transform:translate(-50%,-50%); 
 
-             } 
-             .box{
-                 position: relative;
-                 width:250px;
-                 height:200px;
-                 background-color: transparent;
-                 transform-style: preserve-3d;
-                 transform: rotateX(-15deg) rotateY(0deg);
-                 transition: 1s transform;
-
-             }  
-             .side{
-                 position: absolute;
-                 top:0;
-                 left:0;
-                 width:100%;
-                 height:100%;
-                 border-radius:10px;
-
-             }    
-             .s1{
-
-             }  
-             
+}
+body{
+    background:(linear-gradient(black,white));
+}
+   
         </style>
         </head>
-        <body><div class="how">
-            <marquee><h1 style="color:whitesmoke">SPORTS</h1></marquee></div>
+        <body>
+            <center> <h1>SPORTS</h1></center>
+            <div class="how">
+          <img src="cup.png" style="height:400px;width:500px;">
+          <a href="#"><p>Barcelona won la liga in 2021 </p></a>
+          </div>
+          <div class="how1">
+              <img src="cup2.png" style="height:300px;width:300px;">
+          <a href="#"><p>Rayon sport is now ready for relegation</p></a>
+
+          </div>
+          <div class="how2">
+            <img src="cup3.png" style="height:300px;width:300px;">
+            <a href="#"><p>tranfer:kun Aguerro is leaving manchester to barcelona</p></a>
+        </div>
             </body>
             </html>
